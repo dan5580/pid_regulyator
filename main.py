@@ -29,8 +29,12 @@ ax1.plot(t, x_des, label="x desired")
 ax2.plot(t, P_hist, label="P")
 ax2.plot(t, D_hist, label="D")
 ax2.plot(t, I_hist, label="I")
-
+ 
 
 ax1.legend()
 ax2.legend()
 plt.show()
+
+git add .
+git commit -m "some changes"
+git push
